@@ -358,11 +358,11 @@
                         "wipe": "**Command:** %p%wipe\n**Description:** WARNING: This command is used to wipe data that the bot has stored about your guild. Settings and options will be wiped. Optionally you can specify to wipe only those instead of all data.\n**Usage:** %p%wipe *optional* setting \n**Example:** !wipe setting"
                 },
                 "sp": {
-                        "addrole": "",
-                        "admin": "",
-                        "adminroles": "",
-                        "allbans": "",
-                        "allow": "",
+                        "addrole": "**Comando:** %p%addrole\n**Descripción:** Añade un rol como rol personalizado que el bot puede manejar. Este rol puede ser pre-existente o el bot te lo puede crear por ti. Estos roles son creados sin permisos.\n**Uso:** %p%addrole [nombre]\n**Ejemplo:** !addrole fansbot",
+                        "admin": "**Comando:** %p%admin\n**Descripción:** Añade o elimina un rol de los considerados admins por el bot.\n**Uso:** %p%admin [*add* **o** *rem*] [nombre del rol]\n**Ejemplo:** !admin rem nounadmin",
+                        "adminroles": "**Comando:** %p%adminroles\n**Descripción:** Muestra una lista con los roles considerados como admins en el server.\n**Uso:** %p%adminroles \n**Ejemplo:** !adminroles",
+                        "allbans": "**Comando:** %p%allbans\n**Descripción:** Muestra una lista con todos los bans registrados en el server con los ids de los usuarios, útil para coger el id de alguien fácilmente o rápidamente comprobar el nombre de alguien baneado.\n**Uso:** %p%allbans \n**Ejemplo:** !allbans",
+                        "allow": "**Comando:** %p%allow\n**Descripción:** Permite el uso de un comando por un usuario específico, roles o en un canal específico, lo demás será ignorado. Indica qué cosa permitir añadiendo un gremio, rol y nombre del rol, mención de un usuario, o mención de un canal.\n**Uso:** %p%allow [*nombre del comando* / *nombre del módulo*] [*señal*]\n**Example:** !allow dog role nodoggos4u",
                         "auto": "",
                         "autodel": "",
                         "badpicmc": "",
@@ -372,7 +372,7 @@
                         "bird": "",
                         "blacklist": "",
                         "block": "",
-                        "bug": "",
+                        "bug": "**Comando:** %p%bug\n**Descripción:** Reporta un bug directamente al desarrollador, sé específico o serás ignorado.\n**Uso:** %p%bug [descripción]\n**Ejemplo:** !bug Cosas bugeadas, tío...",",
                         "bypass": "",
                         "bypassroles": "",
                         "cat": "",
@@ -527,16 +527,16 @@
                         ]
                 },
                 "sp": {
-                        "addrole":"Creado nuevo rol personalizado: {rn}\nCualquier usuario ahora puede añadir este rol haciendo **{gp}{rn}**",
+                        "addrole":"Se ha creado nuevo rol personalizado: {rn}\nCualquier usuario ahora puede añadir este rol haciendo **{gp}{rn}**",
                         "bug":"Hecho, informe de error enviado.",
                         "clear":"Tu color ha sido eliminado.",
                         "cmds":"Comandos personalizados:",
                         "coin": [
-                                "Voltea una moneda",
+                                "Lanza una moneda",
                                 "Cara",
                                 "Cruz"
                         ],
-                        "colors":"Colores posibles actuales: ",
+                        "colors":"Colores posibles actualmente: ",
                         "help": [
                                 "Comandos: \n",
                                 "Comandos de staff: \n",
@@ -603,7 +603,7 @@
                         "ban": [
                                 "ERROR: ",
                                 "ERROR: ID de usuario incorrecta.",
-                                "ERROR: No puedo banear al usuario, ¿quizás no tengo permiso?"
+                                "ERROR: No puedo banear al usuario, ¿quizás no tengo permisos suficientes?"
                         ],
                         "clear": "ERROR: Tu no tienes ningún color para quitar",
                         "cmds": "No hay comandos personalizados para este servidor",
